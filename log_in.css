@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ee4c29a6-9564-4bee-befd-79a0597c29ca/dfgw0at-a312a6b7-e556-41c3-844b-710f5d1adfa6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VlNGMyOWE2LTk1NjQtNGJlZS1iZWZkLTc5YTA1OTdjMjljYVwvZGZndzBhdC1hMzEyYTZiNy1lNTU2LTQxYzMtODQ0Yi03MTBmNWQxYWRmYTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SMXl-mKLaS7dfXpcZu22d7wFcD4sta_sKQ3PJi6ou7s');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #e6444463;
+    padding: 40px 40px 20px; /* Ridotto il padding superiore per dare equilibrio */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(212, 0, 255, 0.7);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    border: 8px solid #ffee0034;  /* Aggiunto un bordo al container */
+}
+
+.login-container .logo {
+    width: 200px; /* Imposta una larghezza per il logo */
+    height: auto; /* Mantieni la proporzione dell'immagine */
+    margin-bottom: 10x; /* Spazio tra il logo e il titolo */
+}
+
+.login-container h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif; /* cambiamo lo stile della dicitura per renderla simile ad un videogioco*/
+    margin-bottom: 20px; 
+    font-size: 24px;
+    color: #fff;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 40%;
+    padding: 7px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    top: 20px;  /* Muove il bottone verso il basso di 20px */
+}
+
+.login-container button:hover {
+    background-color: #e0e0e0; /* Cambia colore quando si passa sopra con il mouse */
+}
